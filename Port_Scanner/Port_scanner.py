@@ -18,7 +18,7 @@ while True:
 
 while True:
     print("RANGE OF PORTS")
-    port_range = input("Enter a port range(e.g. start-end):")
+    port_range = input("Enter a port range(e.g. start-end):  ")
     port_range_valid = port_range_pattern.search(port_range.replace(" ", ""))
     if port_range_valid:
         port_minimum = int(port_range_valid.group(1))
